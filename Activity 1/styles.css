@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding: 0 10%;
+    background-color: #ececef;
+}
+
+/* Heading Section */
+
+.headingContainer {
+    text-align: center;
+    padding: 40px 10px 30px 10px;
+    color: #020203;
+}
+
+/* Programming Languages Section */
+
+.programmingLanguages {
+    color: #020203;
+    padding: 30px 30px 10px 30px;
+}
+
+.programmingLanguages > h4 {
+    padding-bottom: 12px;
+}
+
+.programmingLanguages > ol {
+    padding-left: 50px;
+    font-size: .9em;
+}
+
+/* Fave Hobbies Section */
+
+.faveHobbies {
+    color: #020203;
+    padding: 30px 30px 10px 30px;
+}
+
+.faveHobbies > h4 {
+    padding-bottom: 12px;
+}
+
+.faveHobbies > ul {
+    padding-left: 50px;
+    font-size: .9em;
+}
+
+/* Image Section */
+
+.imgSection {
+    text-align: center;
+    padding: 30px;
+}
+
+.imgSection > p {
+    font-size: 2em;
+    color: #1c1c20;
+}
+
+.imgSection > .imgContainer {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content max-content max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 50px 50px 50px;
+}
+
+.imgSection > .imgContainer > img {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 100%;
+    transition: all 0.1s ease-in-out;
+}
+
+.imgSection > .imgContainer > img:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+}
+
+@media screen and (max-width: 1500px) {
+
+    .imgSection > .imgContainer {
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+    }
+
+    .imgSection > .imgContainer > img {
+        width: 170px;
+        transition: all 0.1s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .imgSection > .imgContainer {
+        display: grid;
+        grid-template-columns: max-content max-content;
+    }
+
+    .imgSection > .imgContainer > img {
+        width: 130px;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .imgSection > p {
+        font-size: 1.5em;
+    }
+}
+
+/* Coolest Website Section */
+
+.bestWebsite {
+    padding: 30px 30px 100px 30px;
+    text-align: center;
+}
+
+.bestWebsite > h2 {
+    padding-bottom: 10px;
+}
+
+.bestWebsite > a:hover {
+    color: #687d68;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Table Section */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #433838;
+}
+
+tr:nth-child(even) {
+    background-color: #d5d5dc;
+}

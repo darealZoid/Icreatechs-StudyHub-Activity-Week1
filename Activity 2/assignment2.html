@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms Assignment</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;
+                700&family=Inter:wght@400;700&family=Outfit:wght@100&family=Poppins:ital
+                ,wght@0,300;0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form action="#" method="post" class="contactForm">
+      <h1>Contact Us</h1>
+
+      <div class="contactFormContainer">
+        <label for="fullNameContact">Name:</label>
+        <input type="text" name="fullName" id="fullName" />
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" />
+
+        <label for="msg">Message:</label>
+        <textarea name="msg" id="msg" rows="6"></textarea>
+
+        <input type="submit" value="Submit" id="contactFormSubmit" />
+      </div>
+    </form>
+
+    <form action="#" method="post" class="loginForm">
+      <h1>Login</h1>
+
+      <div class="loginFormContainer">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" />
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+
+        <input type="submit" value="Login" id="loginFormSubmit" />
+      </div>
+    </form>
+
+    <form action="#" method="post" class="surveyForm">
+      <h1>Survey</h1>
+
+      <div class="surveyFormContainer">
+        <label for="fullNameSurvey">Name:</label>
+        <input type="text" name="fullNameSurvey" id="fullNameSurvey" />
+
+        <label for="age">Age: </label>
+        <input type="text" name="age" id="age" />
+
+        <label for="gender">Gender: </label>
+
+        <div class="genderSurveyForm">
+          <input type="radio" name="gender" value="male" title="male" /> Male
+          <input type="radio" name="gender" value=female" title="female" />
+          Female
+        </div>
+
+        <label for="programmingLanguages" class="programmingLanguagesLabel">
+          Which programming languages do you know?
+        </label>
+
+        <div class="programmingLanguagesSurveyForm">
+          <input
+            type="checkbox"
+            name="programmingLanguages"
+            value="html"
+            title="html"
+          />
+          HTML
+
+          <input
+            type="checkbox"
+            name="programmingLanguages"
+            value="css"
+            title="css"
+          />
+          CSS
+
+          <input
+            type="checkbox"
+            name="programmingLanguages"
+            value="javascript"
+            title="javascript"
+          />
+          JavaScript
+
+          <input
+            type="checkbox"
+            name="programmingLanguages"
+            value="python"
+            title="python"
+          />
+          Python
+        </div>
+        <label for="comments">Comments: </label>
+        <textarea name="#" id="comments" rows="6"></textarea>
+
+        <input type="submit" value="Submit" id="surveyFormSubmit" />
+      </div>
+    </form>
+  </body>
+</html>

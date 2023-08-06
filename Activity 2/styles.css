@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  padding: 0 10%;
+  background-color: rgba(255, 253, 236, 0.926);
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 30px;
+  resize: none;
+  border-radius: 7px;
+}
+
+/* Contact Form Section */
+
+.contactForm {
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  z-index: 999;
+  border-radius: 25px;
+  color: rgb(52, 52, 52);
+  background-color: rgba(255, 249, 194, 0.926);
+}
+
+.contactForm > h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+.contactFormContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+}
+
+.contactFormContainer > label {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.contactFormContainer > input {
+  border-radius: 7px;
+  padding: 10px;
+}
+
+#contactFormSubmit {
+  padding: 10px 5px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: rgba(255, 243, 135, 0.926);
+  transition: all 0.2s ease;
+}
+
+#contactFormSubmit:hover {
+  background-color: rgba(255, 236, 62, 0.926);
+  transition: all 0.2s ease;
+}
+
+/* Login Form Section */
+
+.loginForm {
+  padding: 20px 20px 60px 20px;
+  margin: 50px;
+  border: 2px solid black;
+  z-index: 999;
+  border-radius: 25px;
+  color: rgb(52, 52, 52);
+  background-color: rgba(255, 226, 180, 0.926);
+}
+
+.loginForm > h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+}
+
+.loginFormContainer > label {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.loginFormContainer > input {
+  border-radius: 7px;
+  padding: 10px;
+}
+
+#loginFormSubmit {
+  padding: 10px 5px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: rgba(255, 210, 137, 0.926);
+  transition: all 0.2s ease;
+}
+
+#loginFormSubmit:hover {
+  background-color: rgba(255, 182, 66, 0.926);
+  transition: all 0.2s ease;
+}
+
+/* Survey Form Section */
+
+.surveyForm {
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+  z-index: 999;
+  border-radius: 25px;
+  color: rgb(52, 52, 52);
+  background-color: rgba(192, 255, 144, 0.926);
+}
+
+.surveyForm > h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+.surveyFormContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 0 20%;
+}
+
+.surveyFormContainer > label {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.surveyFormContainer > input {
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.genderSurveyForm {
+  display: flex;
+  gap: 10px;
+  font-style: italic;
+}
+
+.programmingLanguagesLabel {
+  margin-top: 20px;
+}
+
+.programmingLanguagesSurveyForm {
+  display: grid;
+  grid-template-columns: 70px 70px;
+  gap: 7px;
+  padding: 20px 0;
+}
+
+#surveyFormSubmit {
+  padding: 10px 5px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: rgba(153, 253, 77, 0.926);
+  transition: all 0.2s ease;
+}
+
+#surveyFormSubmit:hover {
+  background-color: rgba(111, 255, 0, 0.926);
+  transition: all 0.2s ease;
+}
